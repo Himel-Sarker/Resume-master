@@ -1,0 +1,325 @@
+
+
+/* ========================================
+                Header 
+=============================================*/
+
+
+
+/* for header css
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background: #1a1a1a;
+}
+
+.navbar-group{
+    display: flex;
+    list-style: none;
+   
+} */
+
+
+*{
+    color: black;
+}
+
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: slategrey;
+    text-align: center;
+ 
+    
+   
+}
+
+/*-----------IMG Section..............*/
+
+
+
+.logo-image {
+    width: 85px;
+    height: 80px;
+    position: relative;
+    top: 0px;     margin-right: 50px;
+  
+    
+    
+}
+
+
+/*-----------Header Section..............*/
+
+.navbar{
+ 
+    background-color: slategrey;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    padding-left: 445px;
+    z-index: 9;
+   
+  
+    
+
+ 
+}
+
+.navbar-group{
+    display: flex;
+    list-style: none;
+   
+  
+  
+}
+
+
+
+.link a {
+    color: whitesmoke;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 30px;
+    line-height: 30px;
+    transition: .5s;
+    font-size: 20px;
+   
+    
+   
+   
+    
+
+}
+
+.link a:hover, .link.active a{
+    opacity: 1;
+  
+   
+   
+}  
+
+.nav-item a {
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 30px;
+    line-height: 30px;
+    transition: .5s;
+    font-size: 19px;
+  
+
+    
+  
+
+}
+
+.nav-item a:hover {
+    opacity: 1;
+}
+
+.nav-item:hover{
+    color: wheat;
+   
+
+}
+
+
+.about{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pacifico';
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.about-image {
+    width: 992px;
+    height: 1100px;
+    position: relative;
+  
+    
+}
+
+
+.heading-two, .heading-three {
+    padding-right: 68%;
+
+}
+
+
+
+.heading-two-opacity {
+    width: 30px;
+    padding-right: 150px; 
+    margin-left: 230px;
+    opacity: 0.5;
+    
+  
+
+}
+#Name-text {
+    padding-right: 360px;
+    padding-left: 240px;
+    justify-content: center;
+    text-align: left;
+   
+}
+
+
+.heading-three-papa{
+    padding-right: 300px;
+    padding-left: 240px;
+    justify-content: center;
+    text-align: left;
+
+}
+
+
+
+
+.Happyness, .Hh-xlarge {
+   
+   
+    display:inline-flex;
+    background-color: goldenrod;
+    align-items: center;
+    padding: 48px;
+    margin: 20px;
+    justify-content: center;
+    border: 1px solid slateblue;
+    
+
+
+}
+
+.about-Section , {
+    margin-right: 680px;
+  
+}
+
+.button-section{
+    margin-right: 580px;
+
+
+
+}
+
+
+
+ .Testimonial {
+    background-color: #4a4a32;
+} 
+
+.Contect-Section{
+    background-color: cadetblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------Responsive Moode..............*/
+
+
+
+
+  @media screen and (max-width: 380px) {
+    .link-group, .link a {
+      float: none;
+      display: block;
+      text-align: center;
+      
+    }
+  }
+
+  @media screen and (max-width: 600px){
+
+    .navbar img {
+        display: none;
+
+    }
+  }
+
+
+  @media screen and (max-width: 600px){
+
+    .about-hide-small {
+        
+        display: none;
+
+    }
+  }
+
+  @media screen and (max-width: 417px){
+
+ .about-image {
+
+ width: 100%;
+
+ }
+
+
+  }
+
+  
+
+     @media screen and (max-width: 380px){
+
+        .about-image {
+       
+        width: 100%;
+       
+        }
+       
+       
+         }
+
+
+ @media screen and (max-width: 380px){
+
+    .nav.navbar-group {
+   
+       width: 100%;
+      
+   
+    }
+   
+   
+     } 
+
+
+    
+   
+
+
+/*-----------Responsive Moode End..............*/
+
+
+
+
+
+
+
+
+
